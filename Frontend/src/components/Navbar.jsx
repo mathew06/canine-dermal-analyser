@@ -1,6 +1,5 @@
 import { use, useState } from "react"
 import {Menu, X, PawPrint} from "lucide-react"
-import icon from "../assets/icon.jpg"
 import {navItems} from "../constants"
 
 const Navbar = () => {
@@ -15,7 +14,6 @@ const Navbar = () => {
                 <div className="flex justify-between items-center">
                     <a href="/">
                         <div className="flex items-center flex-shrink-0">
-                            {/* <img className="h-9 w-15 mr-2" src={icon} alt="logo" /> */}
                             <PawPrint className="m-2"/>
                             <span className="text-xl tracking-tight">Canine Dermal Analyser</span>
                         </div>
